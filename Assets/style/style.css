@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    max-width: 1300px;
+    width: 95%;
+    margin: 0 auto;
+}
+header{
+    height: 100px;
+    width: 100%;
+}
+.top-header{
+    height: 60%;
+    width: 100%;
+    background-color: rgba(245, 245, 245, 0.9);
+}
+.logo{
+    float:left;
+    width: 150px;
+}
+
+.nav-left-links li{
+    float:left;
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 0px 20px;
+    font-size: 18px;
+    
+}
+.nav-right-links li{
+    float:right;
+    display: inline-block;
+    margin: 20px 10px;
+    padding: 0px 20px;
+    font-size: 18px;
+    
+}
+.nav-right-links a{
+    color:#C53510;
+    font-weight: bold;
+}
+.nav-left-links a{
+    color:#C53510;
+    font-weight: bold;
+}
+.bottom-header{
+    height: 40%;
+    width: 100%;
+    background-color: #C53510;
+}
+main{
+    width: 100%;
+    background-color: #E9DED8;
+}
+.main-title{
+    padding:180px 0 200px 0px; 
+    background-image: url(../Image/Gnsampah.png);
+    background-repeat: no-repeat; 
+    background-size:100% 100% cover;
+}
+.menu-icon{
+    float:right;
+    color:black;
+    padding: 25px 20px;
+    display: none !important;
+}
+.menu-icon h1{
+    font-size:20px;
+    float:left;
+    margin:-3px 10px;
+    color:#C53510;
+}

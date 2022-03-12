@@ -1,0 +1,20 @@
+@media screen and (max-width:1000px){
+    .nav-left-links li{
+        padding: 0px;
+
+    }
+    .nav-right-links li{
+        padding: 0px;
+    }
+}
+@media screen and (max-width:670px){
+    .nav-left-links {
+        display: none;
+    }
+    .nav-right-links {
+        display: none;
+    }
+    .menu-icon{
+        display: block !important;
+    }
+}
