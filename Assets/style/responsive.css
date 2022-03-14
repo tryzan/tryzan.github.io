@@ -61,4 +61,14 @@
     margin-left: auto;
     margin-bottom: 0px;
     }
+    .content-icon p {
+    margin-bottom: 15px;
+  }
+  .heading2 {
+    padding-top: 20px;
+    padding-bottom: 25px;
+  }
+  .heading2 h2 {
+    font-size: 17px;
+  }
 }
