@@ -134,3 +134,71 @@ main{
 #paragraf1 {
   margin-bottom: 20px;
 }
+
+.main-content {
+  text-align: center;
+}
+.heading2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+  font-weight: normal;
+  background-color: rgba(197, 53, 16, 0.9);
+  border-radius: 15px;
+}
+.content-wrapper {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 100px;
+}
+.content-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn {
+  padding: 12px 0px;
+  color: white;
+  display: block;
+  border-radius: 10px;
+  margin: 0px auto;
+}
+.organik {
+  background-color: #c53510;
+  width: 150px;
+}
+.anorganik {
+  background-color: #c53510;
+  width: 150px;
+}
+.B3 {
+  background-color: #c53510;
+  width: 150px;
+}
+.padat {
+  background-color: #c53510;
+  width: 150px;
+}
+
+.content-icon {
+  text-align: center;
+  width: 200px;
+  margin: 0px 10px;
+}
+.content-icon img {
+  height: 200px;
+  width: 200px;
+  border: 1px solid #c53510;
+  border-radius: 10px;
+}
+.content-icon p {
+  margin-top: 10px;
+}
+.organik {
+  display: inline-block;
+}
+footer {
+  background-color: rgba(230, 230, 230, 1);
+}
