@@ -199,6 +199,45 @@ main{
 .organik {
   display: inline-block;
 }
-footer {
-  background-color: rgba(230, 230, 230, 1);
+.footer-bottom{
+  background: rgba(245, 245, 245, 0.9);
+  width: 100vw;
+  padding: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.footer-bottom p{
+  float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+.footer-menu{
+float: right;
+}
+.footer-menu ul{
+display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+color: red;
+text-decoration: none;
+}
+.footer-menu ul li a:hover{
+color: black;
+}
+@media (max-width:500px) {
+.footer-menu ul{
+display: flex;
+margin-top: 10px;
+margin-bottom: 20px;
+}
 }
